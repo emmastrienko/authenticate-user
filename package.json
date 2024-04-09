@@ -1,0 +1,23 @@
+{
+  "name": "jwtdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/*.spec.js",
+    "start": "nodemon ./app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "date-format": "^4.0.3",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "supertest": "^6.2.2"
+  }
+}
